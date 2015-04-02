@@ -1,4 +1,5 @@
 def test(name)
 	puts("welcome #{name}")
 end
-test("rabin")
+name=gets().chomp
+test(name)
