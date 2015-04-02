@@ -1,4 +1,4 @@
-(0..5).each do |i|
-  puts "Value: #{i}"
-  retry if i < 2
+for i in 1..5
+   retry if  i > 2
+   puts "Value of local variable is #{i}"
 end
